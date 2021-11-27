@@ -279,3 +279,14 @@ body {
 .section-tou-list {
     padding: 10px;
 }
+
+.section-rek {
+    width: 100%;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 3px;
+    background-color: whitesmoke;
+}
