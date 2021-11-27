@@ -209,7 +209,6 @@ body {
 
 .section {
     padding-top: 50px;
-    padding-bottom: 200px;
 }
 
 .section-title {
@@ -222,6 +221,7 @@ body {
 .section-one {
     width: 70%;
     float: left;
+    text-align: center;
 }
 
 .table {
@@ -299,4 +299,34 @@ hr {
     /* margin-right: 20px; */
     height: 3px;
     background-color: whitesmoke;
+}
+
+.section-button {
+    background-color: #295093;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.sub-menu {
+    padding: 20px;
+    background-color: #F6F6F9;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    color: #295093;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sub-text {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.sub-img {
+    padding: 20px;
 }
