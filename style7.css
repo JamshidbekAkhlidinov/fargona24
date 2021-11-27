@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    margin-top: 47px;
+    margin-top: 27px;
 }
 
 .header-title {
@@ -30,7 +30,13 @@ body {
     align-items: center;
     box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
     line-height: 33.18px;
-    padding: 10px;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.header-link {
+    color: black;
+    text-decoration: none;
 }
 
 .header-kurs {
@@ -67,6 +73,13 @@ body {
     /* padding-left: 20px; */
     align-items: center;
     border-radius: 50%;
+    z
+}
+
+.header-btn {
+    /* background-color: ; */
+    text-decoration: none;
+    color: white;
 }
 
 .header-obuna {
@@ -104,7 +117,7 @@ body {
     /* background-color: lawngreen; */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .corona-stat {
@@ -115,6 +128,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 8px;
 }
 
 .corona-items {
@@ -128,18 +142,24 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-right: 20px;
+    padding: 6px;
+}
+
+.corona-border {
+    padding: 8px;
+    border-left: 2px solid red;
 }
 
 .corona-statik {
     font-weight: bold;
     padding-left: 20px;
+    text-align: left;
 }
 
 .corona-pic {
     width: 40px;
     height: 40px;
     margin-left: 20px;
-    flex-direction: column;
 }
 
 .corona-raqam {
