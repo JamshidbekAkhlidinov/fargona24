@@ -306,9 +306,11 @@
     background-color: #FBFBFB;
     border: 1px solid #BFCBDF;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 14px;
     border-radius: 5px;
     padding-left: 5px;
+    /* height: 22px; */
+    padding: 3px;
 }
 
 .vizitka {
