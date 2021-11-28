@@ -1,0 +1,57 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0ch auto;
+}
+
+.top {
+    background-color: #295093;
+    height: 4px;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F6F6F9;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header-top-name {
+    font-size: 28px;
+    font-weight: 700;
+    color: #295093;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header-kurs-bold {
+    font-weight: 700;
+    color: #295091;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header-kurs-number {
+    font-weight: 500;
+    color: #7A7A7A;
+    display: inline-block;
+    font-size: 16px;
+}
