@@ -112,3 +112,21 @@
     width: 100%;
     padding-top: 20px;
 }
+
+.section-left {
+    width: 70%;
+}
+
+.section-left-list {
+    list-style: none;
+    padding-top: 30px;
+}
+
+.section-left-item {
+    display: flex;
+}
+
+.left-title {
+    font-size: 24px;
+    font-weight: 500;
+}
