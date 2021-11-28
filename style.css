@@ -276,3 +276,75 @@
     width: 400px;
     padding-right: 20px;
 }
+
+
+/* //////////////////////////////////////////
+//////////////////////////////////////////
+//////////////////////////////////////////
+//////////////////////////////////////////
+//Regstr/////////////
+//////////////////////////////////////////
+//////////////////////////////////////////
+//////////////////////////////////////////
+//////// */
+
+.regstr {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 800px;
+}
+
+.regstr-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    float: left;
+}
+
+.regstr-input {
+    background-color: #FBFBFB;
+    border: 1px solid #BFCBDF;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.vizitka {
+    float: right;
+    box-shadow: -4px 4px 4px #40393939;
+    width: 450px;
+    height: 200px;
+    border: 2px solid #40393939;
+    padding: 20px;
+}
+
+.vizitka-title {
+    text-align: right;
+    color: #295091;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.vizitka-link {
+    background-color: #295091;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+}
+
+.vizitka-img {
+    margin-left: 10px;
+    width: 25px;
+}
+
+.vizitka-img2 {
+    width: 100px;
+    padding-left: 10px;
+}
