@@ -25,8 +25,8 @@
 .header-list {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-items {
@@ -37,10 +37,7 @@
 }
 
 .header-item {
-    padding-left: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-right: 20px;
 }
 
 .header-top-name {
@@ -64,18 +61,17 @@
     color: #7A7A7A;
     display: inline-block;
     font-size: 16px;
+    padding-left: 3px;
 }
 
 .header-search {
     background-color: white;
     padding: 10px;
-    border-radius: 5px;
 }
 
 .header-lg {
-    background-color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 
 .header-link {
@@ -83,8 +79,36 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.header-link:hover {
+    background-image: linear-gradient(to left, #1e96c8, #37AEE2);
 }
 
 .btn {
     border: 0px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.header-join {
+    margin-right: 5px;
+}
+
+.menu-list {
+    list-style: none;
+    margin-top: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.header-rek {
+    width: 100%;
+    padding-top: 20px;
 }
