@@ -398,6 +398,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-weight: 500;
 }
 
 .footer-item {
@@ -413,7 +414,7 @@ hr {
 }
 
 .footer-table-td {
-    width: 40%;
+    width: 50%;
 }
 
 .footer-table-title {
