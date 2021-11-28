@@ -1,6 +1,9 @@
 * {
     padding: 0%;
     margin: 0%;
+    font-family: Rubik;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 .container {
@@ -33,6 +36,13 @@
     list-style: none;
 }
 
+.header-item {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .header-top-name {
     font-size: 28px;
     font-weight: 700;
@@ -54,4 +64,27 @@
     color: #7A7A7A;
     display: inline-block;
     font-size: 16px;
+}
+
+.header-search {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header-lg {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header-link {
+    background-image: linear-gradient(to right, #1e96c8, #37AEE2);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    border: 0px solid white;
 }
