@@ -113,8 +113,13 @@
     padding-top: 20px;
 }
 
+.section {
+    display: flex;
+}
+
 .section-left {
     width: 70%;
+    float: left;
 }
 
 .section-left-list {
@@ -124,9 +129,40 @@
 
 .section-left-item {
     display: flex;
+    padding-top: 20px;
 }
 
 .left-title {
     font-size: 24px;
     font-weight: 500;
+}
+
+.left-normal {
+    padding-top: 20px;
+}
+
+.left-bold {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.left-list {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.section-right {
+    width: 30%;
+    float: right;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.right-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.section-right-list {
+    list-style: none;
 }
