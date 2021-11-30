@@ -175,6 +175,7 @@
     padding-top: 10px;
     font-size: 17px;
     font-weight: 400;
+    color: black;
 }
 
 .right-items-data {
@@ -228,6 +229,10 @@
     color: grey;
 }
 
+.news-title {
+    color: black;
+}
+
 .bottom {
     background-color: #295093;
     padding-top: 20px;
@@ -250,6 +255,7 @@
     border-radius: 5px;
     font-weight: 500;
     font-size: 16px;
+    color: white;
 }
 
 .site-join {
@@ -349,4 +355,8 @@
 .vizitka-img2 {
     width: 100px;
     padding-left: 10px;
+}
+
+.link {
+    color: black;
 }
